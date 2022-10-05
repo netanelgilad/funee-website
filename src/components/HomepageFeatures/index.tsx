@@ -10,32 +10,34 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Just Functions',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The building blocks in <code>funee</code> are functions. No scripts or modules,
+        no classes or module state - no fuss. Just functions.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Statically Analyzable and Type Safe',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Function dependencies are always explicit, making static analysis of functions
+        much more powerful. From introspection to serialization, Functions in <code>funee</code> 
+        enable a whole new definition of Developer Experience.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Metaprogramming',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        In <code>funee</code>, functions are treated as data. Together with a 
+        powerful macro system, manipulating functions is as easy as manipulating
+        any other data.
       </>
     ),
   },
